@@ -40,6 +40,66 @@ class PagSeguroPreApprovalRequest extends PagSeguroPaymentRequest
     private $preApprovalName;
     private $preApprovalCharge;
 
+function getReviewURL ()
+    {
+        return $this->reviewURL;
+    }
+
+    function getPreApprovalMaxTotalAmount ()
+    {
+        return $this->preApprovalMaxTotalAmount;
+    }
+
+    function getPreApprovalMaxAmountPerPeriod ()
+    {
+        return $this->preApprovalMaxAmountPerPeriod;
+    }
+
+    function getPreApprovalFinalDate ()
+    {
+        return $this->preApprovalFinalDate;
+    }
+
+    function getPreApprovalInitialDate ()
+    {
+        return $this->preApprovalInitialDate;
+    }
+
+    function getPreApprovalDayOfMonth ()
+    {
+        return $this->preApprovalDayOfMonth;
+    }
+
+    function getPreApprovalDayOfWeek ()
+    {
+        return $this->preApprovalDayOfWeek;
+    }
+
+    function getPreApprovalPeriod ()
+    {
+        return $this->preApprovalPeriod;
+    }
+
+    function getPreApprovalAmountPerPayment ()
+    {
+        return $this->preApprovalAmountPerPayment;
+    }
+
+    function getPreApprovalDetails ()
+    {
+        return $this->preApprovalDetails;
+    }
+
+    function getPreApprovalName ()
+    {
+        return $this->preApprovalName;
+    }
+
+    function getPreApprovalCharge ()
+    {
+        return $this->preApprovalCharge;
+    }
+
     /***
      * Sets the redirect URL
      *
