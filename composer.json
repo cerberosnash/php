@@ -11,5 +11,5 @@
         "lib-curl": "*",
         "lib-openssl": "*",
         "lib-libxml": "*"
-    }
+    } 
 }
